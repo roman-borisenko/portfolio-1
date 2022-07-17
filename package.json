@@ -1,7 +1,7 @@
 {
   "name": "project-1",
   "version": "1.0.0",
-  "description": "",
+  "description": "My first own-developed website",
   "main": "burger_menu.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
