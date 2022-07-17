@@ -1,0 +1,78 @@
+.hello__block {
+  display: flex;
+  justify-content: space-between;
+  margin: 208px 25px 0 25px;
+}
+
+.hello__info {
+  color: #21243d;
+}
+
+.hello__info h1 {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 60px;
+  padding: 7px 0 33px 0;
+}
+
+.hello__info p {
+  font-size: 16px;
+  line-height: 23.5px;
+  padding-bottom: 45px;
+}
+
+.btn {
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  text-decoration: none;
+  margin-top: 34px;
+  border: none;
+  border-radius: 2px;
+  padding: 10px 21px;
+
+  background: #ff6464;
+  transition: background-color 0.2s ease-out 0s;
+}
+
+.btn:hover {
+  background-color: #cc5050;
+}
+
+.hello__avatar img {
+  max-width: 243px;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: -5px 13px #edf7fa;
+}
+
+@media (max-width: 768px) {
+  .hello__block {
+    flex-direction: column-reverse;
+    text-align: center;
+    margin-top: 83px;
+  }
+
+  .hello__info h1 {
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    padding: 7px 24px 25px 24px;
+  }
+
+  .hello__block p {
+    padding: 0 24px 35px 24px;
+  }
+
+  .myButton {
+    margin-top: 27px;
+  }
+
+  .hello__avatar img {
+    max-width: 180px;
+    height: auto;
+    box-shadow: -4px 10px #edf7fa;
+    margin-bottom: 34px;
+  }
+}

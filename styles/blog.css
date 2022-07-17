@@ -1,0 +1,28 @@
+.blog__wrapper {
+  margin-top: 170px;
+}
+
+.blog__section {
+  margin: 0 25px;
+}
+
+.blog__name {
+  font-weight: 700;
+  font-size: 44px;
+  margin-bottom: 27px;
+}
+.blog__chapter {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+@media (max-width: 768px) {
+  .blog__wrapper {
+    margin-top: 90px;
+  }
+  .name__blog {
+    margin-bottom: 3px;
+  }
+  .card h4 {
+    padding-top: 7px;
+  }
+}

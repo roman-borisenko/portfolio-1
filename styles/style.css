@@ -1,0 +1,27 @@
+@import url("https://cdn.jsdelivr.net/npm/css-reset-and-normalize/css/reset-and-normalize.min.css");
+@import url("https://fonts.googleapis.com/css?family=Heebo:regular,500,700,900&display=swap");
+@import url(./header.css);
+@import url(./hello-block.css);
+@import url(./posts.css);
+@import url(./featured-works.css);
+@import url(./works.css);
+@import url(./blog.css);
+@import url(./footer.css);
+@import url(./designing-dashboards.css);
+
+body {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 400;
+  color: #21243d;
+}
+
+.container {
+  max-width: 906px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: #21243d;
+}

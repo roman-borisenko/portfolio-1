@@ -1,0 +1,27 @@
+.featured__work {
+  margin-top: 170px;
+  padding: 0 20px;
+}
+
+.featured__work--title {
+  font-weight: 700;
+  font-size: 44px;
+}
+
+.featured__posts {
+  display: flex;
+  justify-content: flex-start;
+  padding: 45px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+@media (max-width: 650px) {
+  .featured__work--title {
+    font-size: 30px;
+  }
+
+  .featured__posts {
+    display: block;
+    padding: 20px 0;
+  }
+}
