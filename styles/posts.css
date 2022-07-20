@@ -15,6 +15,11 @@
   font-size: 22px;
 }
 
+.posts__title a:hover {
+  color: #ff6464;
+  transition: 0.3s ease-out 0s;
+}
+
 .posts__action {
   padding-top: 32px;
 }
@@ -55,6 +60,11 @@
   font-size: 26px;
   line-height: 38px;
   padding-top: 25px;
+}
+
+.card a:hover {
+  color: #ff6464;
+  transition: 0.3s ease-out 0s;
 }
 
 .card h4 {

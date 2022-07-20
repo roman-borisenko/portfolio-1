@@ -19,9 +19,19 @@
   .blog__wrapper {
     margin-top: 90px;
   }
-  .name__blog {
-    margin-bottom: 3px;
+  .blog__name {
+    font-size: 35px;
+    margin-bottom: 10px;
   }
+
+  .card h2 {
+    padding-top: 15px;
+  }
+
+  .card p {
+    padding: 12px 0 18px 0;
+  }
+
   .card h4 {
     padding-top: 7px;
   }

@@ -43,6 +43,12 @@
   padding-top: 65px;
 }
 
+.designing__heading h2:hover,
+.designing__heading h3:hover {
+  color: #ff6464;
+  transition: 0.3s ease-out 0s;
+}
+
 .designing__heading h3 {
   font-weight: 500;
   font-size: 24px;
@@ -50,6 +56,14 @@
 }
 
 @media (max-width: 768px) {
+  .designing {
+    margin-top: 90px;
+  }
+
+  .designing__title {
+    font-size: 30px;
+  }
+
   .designing__classification {
     padding: 20px 0;
   }
